@@ -32,6 +32,6 @@ test('Return false on non-empty string', () => {
     expect(isEmpty("test")).toEqual(false);
 });
 
-test('Return false on a number', () => {
-    expect(isEmpty(1)).toEqual(false);
+test('Return true on a number', () => {
+    expect(isEmpty(1)).toEqual(true);
 });
